@@ -1,0 +1,54 @@
+{
+  "websiteTitle": "Kitty Blog",
+  "websiteAuthor": "Author",
+  "titleOnTopBar": "Kitty Blog",
+  "faviconPath": "./favicon.svg",
+  "avatarPath": "./avatar.svg",
+  "copyrightInfo": "Kitty Blog 2026. All rights reserved.",
+  "websiteStyle": "oak",
+  "sidebar": [
+    {
+      "moduleName": "Passages",
+      "moduleStyle": "directory",
+      "inDirectory": [
+        {
+          "moduleName": "Notes",
+          "moduleStyle": "card",
+          "inCard": [
+            {
+              "passageTitle": "Sample Passage",
+              "passageDescription": "A sample passage to demonstrate the markdown renderer capabilities",
+              "passageAuthor": "Sample Author",
+              "publishDate": "2026-05-30 Morning",
+              "filePath": "./notes/SamplePassage.md",
+              "passageCover": "./notes/covers/sample.svg"
+            }
+          ]
+        },
+        {
+          "moduleName": "Portfolio",
+          "moduleStyle": "card",
+          "inCard": [
+            {
+              "passageTitle": "Project Alpha",
+              "passageDescription": "A showcase of my recent project work and achievements",
+              "passageAuthor": "Author",
+              "publishDate": "2026-04-15 Afternoon",
+              "filePath": "./notes/SamplePassage.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleName": "About Me",
+      "moduleStyle": "file",
+      "dir": "./aboutme.md"
+    },
+    {
+      "moduleName": "Resume",
+      "moduleStyle": "file",
+      "dir": "./aboutme.md"
+    }
+  ]
+}
